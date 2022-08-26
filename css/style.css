@@ -1,4 +1,37 @@
+.hero {
+  background: #d3e4cd;
+  padding: 50px 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
 h1 {
-  background: gold;
-  margin-top: 0;
+  font-size: 72px;
+  font-family: "Nunito", sans-serif;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.navigation {
+  text-align: center;
+  padding-top: 30px;
+}
+.nav-button {
+  background: #99a799;
+  color: #fef5ed;
+  padding: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.nav-button:hover {
+  color: #99a799;
+  background: #fef5ed;
 }
