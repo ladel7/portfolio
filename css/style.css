@@ -1,16 +1,22 @@
 :root {
-  --main-color: #fef5ed;
-  --secondary-color: #d3e4cd;
-  --tertiary-color: #99a799;
-}
-
-body {
-  background-color: var(--main-color);
+  --main-color: #dfd3d3;
+  --secondary-color: #aa8d63;
+  --tertiary-color: #002d41;
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: url(../images/forest.jpg);
+  background-position: center;
+  background-size: cover;
   padding: 50px 20px;
+}
+
+.name-header {
+  background-color: rgba(216, 207, 208, 0.82);
+  border-radius: 4px;
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 h1,
@@ -74,6 +80,7 @@ p {
   background-size: cover;
   margin: 0 auto;
   border-radius: 4px;
+  border: solid lightgrey 1px;
 }
 .img-coming-soon {
   width: 300px;
