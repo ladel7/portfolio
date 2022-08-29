@@ -2,6 +2,8 @@
   --main-color: #dfd3d3;
   --secondary-color: #aa8d63;
   --tertiary-color: #002d41;
+  --main-font: "Nunito", sans-serif;
+  --secondary-font: "Yanone Kaffeesatz", sans-serif;
 }
 
 .hero {
@@ -17,6 +19,15 @@
   max-width: fit-content;
   margin: 0 auto;
   padding: 10px;
+  margin-top: 20px;
+}
+
+.homepage-blurb {
+  background-color: var(--tertiary-color);
+  color: white;
+  text-align: center;
+  padding: 100px 50px 200px 50px;
+  font-family: var(--main-font);
 }
 
 h1,
@@ -26,15 +37,19 @@ h2 {
 
 h1 {
   font-size: 72px;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--main-font);
 }
 h2 {
   font-size: 24px;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 300;
 }
+h3 {
+  color: var(--main-color);
+  font-size: 32px;
+}
 p {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--main-font);
 }
 
 .navigation {
@@ -44,7 +59,7 @@ p {
 .nav-button {
   color: var(--tertiary-color);
   text-decoration: none;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: var(--secondary-font);
   font-size: 18px;
   line-height: 1.5;
   font-weight: 500;
@@ -54,7 +69,7 @@ p {
 }
 
 .project-heading {
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: var(--secondary-font);
   text-align: center;
   font-size: 28px;
   margin-top: 50px;
