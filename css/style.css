@@ -36,7 +36,7 @@ h2 {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 68px;
   font-family: var(--main-font);
 }
 h2 {
@@ -46,8 +46,11 @@ h2 {
 }
 h3 {
   color: var(--main-color);
-  font-size: 32px;
+  font-size: 24px;
+  font-family: var(--secondary-font);
+  font-weight: 300;
 }
+
 p {
   font-family: var(--main-font);
 }
@@ -145,6 +148,36 @@ p {
 .learn-more-btn:hover {
   color: var(--secondary-color);
   background-color: white;
+}
+
+nav ul {
+  padding: 0;
+  line-height: 2;
+  margin-bottom: 0;
+}
+nav li {
+  list-style: none;
+  display: inline;
+}
+
+.nav-name {
+  display: inline;
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  color: black;
+  line-height: 2;
+}
+.nav-name:hover {
+  color: black;
+}
+
+.nav-background {
+  background-color: var(--main-color);
+}
+
+.profile-pic {
+  width: 450px;
 }
 
 @media (max-width: 320px) {
