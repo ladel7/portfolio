@@ -134,6 +134,11 @@ p {
   opacity: 1;
   transform: scale(1);
 }
+.project-languages {
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
 
 .learn-more-btn {
   text-decoration: none;
