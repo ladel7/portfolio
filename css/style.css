@@ -198,17 +198,28 @@ nav li {
   text-align: center;
   font-size: 24px;
 }
-.linkedin-github a {
+.linkedin-icon,
+.github-icon,
+.email-icon {
   color: var(--tertiary-color);
 }
-.linkedin:hover {
+.linkedin-icon:hover,
+.github-icon:hover,
+.email-icon:hover {
   color: var(--secondary-color);
   cursor: pointer;
 }
+.email-icon,
+.linkedin-icon {
+  margin-right: 5px;
+}
 
-.github:hover {
-  color: var(--secondary-color);
-  cursor: pointer;
+footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 5px;
+  font-size: 18px;
 }
 
 @media (max-width: 320px) {
