@@ -180,6 +180,37 @@ nav li {
   width: 450px;
 }
 
+.contact {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.contact a:hover {
+  color: var(--tertiary-color);
+}
+
+.linkedin-github {
+  text-align: center;
+  font-size: 24px;
+}
+.linkedin-github a {
+  color: var(--tertiary-color);
+}
+.linkedin:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.github:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
 @media (max-width: 320px) {
   .image {
     width: 200px;
