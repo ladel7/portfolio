@@ -69,7 +69,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/weather-app.JPG);
+  background-image: url(../images/weather-app.jpg);
   background-position: center;
   background-size: cover;
   margin: 0 auto;
@@ -82,7 +82,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/mock-portfolio.JPG);
+  background-image: url(../images/mock-portfolio.jpg);
   background-position: center;
   background-size: cover;
   margin: 0 auto;
