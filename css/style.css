@@ -1,7 +1,7 @@
 :root {
   --main-color: #d6d6d6;
   --secondary-color: #7c8a39;
-  --tertiary-color: #012303;
+  --tertiary-color: #163018;
   --main-font: "Nunito", sans-serif;
   --secondary-font: "Yanone Kaffeesatz", sans-serif;
 }
@@ -45,24 +45,13 @@ h3 {
 p {
   font-family: var(--main-font);
 }
-.home-nav-button {
-  color: white;
-  text-decoration: none;
-  font-family: var(--secondary-font);
-  font-size: 18px;
-  line-height: 1.5;
-  font-weight: 500;
-}
-.home-nav-button:hover {
-  color: var(--secondary-color);
-}
 
 .navigation {
   text-align: center;
   padding-top: 30px;
 }
 .nav-button {
-  color: var(--tertiary-color);
+  color: white;
   text-decoration: none;
   font-family: var(--secondary-font);
   font-size: 18px;
@@ -154,6 +143,7 @@ nav ul {
   padding: 0;
   line-height: 2;
   margin-bottom: 0;
+  color: white;
 }
 nav li {
   list-style: none;
@@ -165,15 +155,15 @@ nav li {
   text-decoration: none;
   font-family: var(--secondary-font);
   font-size: 20px;
-  color: black;
+  color: white;
   line-height: 2;
 }
 .nav-name:hover {
-  color: black;
+  color: white;
 }
 
 .nav-background {
-  background-color: var(--main-color);
+  background-color: var(--tertiary-color);
 }
 
 .profile-pic {
